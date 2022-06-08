@@ -1,0 +1,30 @@
+/*------------------------------------*\
+    $TYPOGRAPHY
+\*------------------------------------*/
+/*------------------------------------*\
+    $FONT-FACE
+\*------------------------------------*/
+
+/*importing font base*/
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@400;500;700&display=swap');
+
+/**
+ * Definimos las fuentes a utilizar:
+ * $basefont para todos los textos inline
+ * $altfont para textos alternativos, como citas, intro, etc...
+ * $codefont para código
+ */
+    $basefont :'Changa', sans-serif;
+    
+    /*WEIGHT*/
+    $font-bold : bold;
+    
+    
+    /*------------------------------------*\
+        $SIZES
+    \*------------------------------------*/
+    
+    $basefontsize:16;
+
+
+

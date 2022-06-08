@@ -1,0 +1,10 @@
+.logo{
+    position: absolute;
+    top:$space-xxl;
+    left: $space-s;
+
+    @media (min-width:950px){
+        left:17.6rem;
+
+    }
+}

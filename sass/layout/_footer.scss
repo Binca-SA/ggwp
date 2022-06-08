@@ -1,0 +1,47 @@
+/*footerlayout*/
+.container-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    row-gap: $space-xl;
+    border-top: 2px solid $grey;
+    padding: {
+        top: $space-xxl;
+        bottom: $space-xxl;
+    }
+    margin: {
+        left: $space-s;
+        right:$space-s;
+    }
+    &__container-info-icon{
+        display: flex;
+        flex-direction: column;
+        row-gap: $space-xl;
+    }
+    &__container-text{
+        color:$grey;
+        line-height: $space-m;
+    }
+    &__container-icons{
+        display: flex;
+        column-gap: $space-xl;
+    }
+}
+/*RESPONSIVE TABLET*/
+@media (min-width:750px){
+    .container-footer__container-info-icon{
+        flex-direction: row;
+        column-gap: 14rem;
+    }
+}
+    /*DESKTOP*/
+@media (min-width:950px){
+    .container-footer{
+        margin: {
+            left: 17.6rem;
+            right:17.6rem 
+        };
+    }
+    
+}
+

@@ -1,0 +1,28 @@
+/*FLEX HELPERS*/
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.lateral-padding{
+    padding: 0 $space-s;
+
+
+    /*desktop*/
+    @media (min-width:950px){
+        padding: {
+            left: 17.6rem;
+            right:17.6rem 
+        };
+    }
+}
+
+.small-text{
+    font-size: $space-xs; 
+}
+
+
+/*TITLES*/
+.main-title{
+    font-size: $space-m;
+}

@@ -1,0 +1,20 @@
+/* spaces */
+
+
+$space: 0.6rem;
+$space-xs: 1.4rem;
+$space-s: 1.6rem;
+$space-m: 2rem;
+$space-l: 2.5rem;
+$space-xl: 3rem;
+$space-xxl: 3.5rem;
+$space-xxxl: 4rem;
+
+
+.margin-top-large{
+    margin-top: 4.5rem;
+}
+
+.margin-top-s{
+    margin-top: $space-s;
+}

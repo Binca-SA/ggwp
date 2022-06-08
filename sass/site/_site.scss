@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+	background : $background;
+	font-size: 62.5%; /* 1rem = 10px; in whole aplication*/
+}
+
+body {
+	margin : 0;
+	padding : 0;
+	width : 100%;
+	font-family : $basefont;
+	color : $textcolor;
+}
+
+a{
+	color:$white;
+
+}
+
+
+
+p, h1, h2, h3, h4{
+	margin: 0;
+}
+
+p, label{
+	font-family: $basefont;
+	font-size: $space-s;
+}
